@@ -71,8 +71,6 @@ def main():
     # Counter for Block 2's goal: total number of times the lock wraps (crosses 0).
     wrap_counter = 0
 
-    print(f"--- Starting state: {lock_current_state} (Wrap limit: {lock_wrap}) ---")
-
     try:
         # Open and process the input file.
         with open("input-2025.txt") as t:
