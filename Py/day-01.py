@@ -114,7 +114,7 @@ def main():
     except FileNotFoundError:
         # Inform the user if the required input file is missing.
         print(
-            "\nError: 'input.txt' not found. Please create it with lines like 'L67' or 'R21'."
+            "\nError: 'input.txt' not found."
         )
         return  # Exit main function
 

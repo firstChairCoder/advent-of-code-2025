@@ -36,9 +36,6 @@ def solve():
 
     print(f"Part 1 (Heuristic): {possible_p1}")
     
-	# PART 2: TRUE PACKING (Simplified)
-    # Part 2 usually requires actually checking if they fit without overlaps.
-    
 
 
 if __name__ == "__main__":
