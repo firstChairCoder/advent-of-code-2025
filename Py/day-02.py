@@ -33,7 +33,7 @@ b = 0
 # --- File Input and Parsing ---
 
 # Read the entire file content into a single string.
-file_content = open("input-02-2025.txt").read()
+file_content = open("inputs/input-02-2025.txt").read()
 
 # Use re.findall to extract all range pairs (X-Y) from the input string.
 # r'(\d+)-(\d+)' breakdown:
